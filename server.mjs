@@ -10,7 +10,7 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
 const port = 4000;
 
-const staticFilePath = path.join(__dirname, '../dist');
+const staticFilePath = path.join(__dirname, './dist');
 
 const application = express();
 application.disable("x-powered-by");
